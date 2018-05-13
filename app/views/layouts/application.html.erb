@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Gardener | Watch your GitHub turn green in the span of a year</title>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
+  <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="https://i.imgur.com/VsM2haI.png">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,500,700" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-static-top" style=" border: none; background-color: white; margin-top: 10px; margin-left: 30px; margin-right: 30px; font-size: 16px;">
+        <div class="container-fluid">
+          <div class="navbar-header" style="margin-top: 10px;">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar" style="background-color: black;"></span>
+              <span class="icon-bar" style="background-color: black;"></span>
+              <span class="icon-bar" style="background-color: black;"></span>
+            </button>
+            <a style="color:green; font-size:18px;" href="/"><b>GitHub Gardener</b></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+    
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a style="color: grey;" href="/#howdoesitwork"> How does it work?</a>
+              </li>
+              <li class="">
+                <a style="color: grey;" href="/#open_source"> Open Source</a>
+              </li>
+              <li class="">
+                <a style="color: grey;" href="/#built_in_the_open"> Built in the Open</a>
+              </li>
+              <li class="">
+                <a style="color: grey;" href="/#pricing"> Pricing</a>
+              </li>
+              <li class="">
+                <a class="btn" style="border-color: green; border-radius: 10px; border-width: 1.5px; font-size: 16px; color: grey;" href="/signup"> Sign Up with GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+</nav>
+
+<%= yield %>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119126879-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119126879-1');
+    </script>
+</body>
+</html>

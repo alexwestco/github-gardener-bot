@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  github_username: MyString
+  github_authentication_token: MyString
+  repo_name: MyString
+
+two:
+  github_username: MyString
+  github_authentication_token: MyString
+  repo_name: MyString

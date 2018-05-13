@@ -1,0 +1,2 @@
+class PremiumEmail < ApplicationRecord
+end
