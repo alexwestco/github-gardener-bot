@@ -2,7 +2,7 @@
 
 A web app / bot that commits code to your GitHub repo in order to make your contribution history green.
 
-http://www.githubgardener.xyz
+http://www.gitgardener.com
 
 Show some love on Product Hunt! <3
 
